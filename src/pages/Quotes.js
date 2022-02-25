@@ -29,12 +29,12 @@ const Quote = () => {
       {Quotes.map((Quote) => {
         if (Quote.id === random) {
           return (
-            <p key={Quote.id}className="quote-text">
+            <p key={Quote.id} className="quote-text">
               &quot;
               {Quote.quote}
               &quot;
               ~
-              <span key={Quote.id}className="author">{Quote.author}</span>
+              <span key={Quote.id} className="author">{Quote.author}</span>
             </p>
           );
         }
