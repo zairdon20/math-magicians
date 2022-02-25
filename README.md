@@ -35,7 +35,7 @@ cd todo-list-project in the terminal.
 This project is in progress.
 
 ## Screenshoots
-![screenshot](src\assets\calculatorpic.png)
+![screenshot](src/assets/reactpic.png)
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
