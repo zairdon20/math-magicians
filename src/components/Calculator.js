@@ -25,11 +25,11 @@ const Calculator = () => {
   return (
     <div className="container">
       {next ? (
-        <div className="screen">{next}</div>
+        <div key="screen" className="screen">{next}</div>
       ) : (
-        <div className="screen">{total}</div>
+        <div key="screen1" className="screen">{total}</div>
       )}
-      <div className="btn-column">
+      <div key="screen2" className="btn-column">
         {btns.map((btnName) => (
           <button
             onClick={clickHandler}
